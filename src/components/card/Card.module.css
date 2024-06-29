@@ -1,0 +1,58 @@
+.history{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.history__title{
+    color: black;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+
+}
+.history__link{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+}
+.history__card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #6E819B;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #6E819B;
+}
+.card__title{
+    color: black;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+
+
+}
+.card__info{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 90px;
+}
+.total__price{
+    color: #8B91FC;
+}
+.history__date,
+.history__time{
+    color: #6E819B;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.price{
+    color:rgb(101, 108, 238)
+}

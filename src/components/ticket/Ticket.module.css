@@ -1,0 +1,150 @@
+.form__header{
+    min-height: 120px   ;
+    background-color: #656CEE ;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+
+
+    padding: 16px;
+}
+
+.header__wrap{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__title{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 700;
+}
+.form__hello{
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    line-height: 150%;
+    font-weight: 700;
+    color: white;
+}
+.person__box{
+    align-items: center;
+    border:solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 3px 7px;
+
+}
+.person{
+    width: 17px;
+    height: 24px;
+
+}
+
+.section{
+
+
+}
+/*footer*/
+
+
+/*tickets*/
+.ticket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ticket__form{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    border: 1px solid #6E819B;
+    border-radius: 10px;
+    max-width: 343px;
+    box-shadow: 5px 5px 5px 5px #6E819B;
+
+}
+.ticket__title{
+    color: black;
+    margin: 27px;
+}
+.ticket__park{
+    color: black;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+}
+.ticket__box{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+.box__place{
+    color: #1a1a1a;
+    max-width: 190px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: rgb(165, 170, 183);
+}
+.box__distance{
+    color: rgb(165, 170, 183);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    gap:160px;
+    position: relative;
+}
+.start__time{
+    color: black;
+}
+.time__img{
+    position: absolute;
+    top: 9px;
+}
+.end__time{
+    color: black ;
+}
+.date__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 10px 0 20px;
+}
+.start__date,
+.end__date{
+    color: #6E819B;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+
+}
+.status__box {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.current__status{
+    color: black;
+}
+.current__status_active{
+    color: #51E05F;
+    font-size: 14px;
+    font-weight: 500;
+}
+.price{
+    color:rgb(101, 108, 238)
+}

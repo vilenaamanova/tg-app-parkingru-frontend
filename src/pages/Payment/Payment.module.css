@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+.form{
+    max-width: 360px;
+    border-radius: 30px;
+    min-height: 800px ;
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*zona modal*/
+.section{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.section__title{
+    color: black;
+}
+.section__text{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    color: rgb(165, 170, 183);
+}

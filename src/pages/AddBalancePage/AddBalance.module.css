@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+.form{
+    max-width: 360px;
+    border-radius: 30px;
+    min-height: 800px ;
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white ;
+    border-radius: 15px;
+    margin: 30px 15px 50px 15px;
+    box-shadow: 5px 5px 5px 5px #6E819B;
+}
+.card__title{
+    color:black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: Montserrat, sans-serif;
+    padding-top: 15px;
+
+}
+.card__block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.block__title{
+    color: black;
+}
+
+.block__input{
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 80%;
+    height: 30px;
+    background-color:rgba(148, 154, 255, 0.76);
+    color: #1a1a1a;
+    font-size: 18px;
+    border-color: rgba(112, 119, 242, 0.76);
+}
+
+/*new*/
+.dropdown__button {
+
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    height: 30px;
+    width: 230px;
+    background-color: rgba(148, 154, 255, 0.76);
+    position: relative;
+    border-color: rgba(112, 119, 242, 0.76);
+}
+
+.arrow {
+    position: absolute;
+
+    right: 20px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: translateY(3px);
+}
+
+.arrow.down {
+    transform: rotate(45deg);
+}
+
+.arrow.up {
+    transform: rotate(-135deg);
+}
+
+.dropdown__menu {
+    position: absolute;
+    width: 230px;
+    top: 353px;
+    background-color: white ;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+    color: #1a1a1a;
+    margin-bottom: 30px ;
+
+}
+
+.dropdown__item {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: black;
+    padding-bottom: 40px;
+    z-index: 3;
+}
+
+.dropdown__item:hover {
+    background-color: #f0f0f0;
+}
+.button{
+    background-color: orange;
+    margin: 200px 0 20px;
+}

@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+.form{
+    max-width: 360px;
+    border-radius: 30px;
+    min-height: 800px ;
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px #6E819B;
+    margin: 50px auto 425px;
+    align-items: center;
+}
+.card__info{
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.price{
+    color: #8B91FC;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.button{
+    padding:14px 23px;
+    border: 10px;
+    background-color: #f17607;
+    width: 300px;
+    margin: 15px auto;
+    border-radius: 13px;
+    color: white;
+}

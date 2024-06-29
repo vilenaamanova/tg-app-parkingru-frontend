@@ -1,0 +1,26 @@
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 300px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    position: relative;
+}
+
+.carousel-card {
+    min-width: 100%;
+    transition: transform 0.3s ease;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Adjust as needed */
+    border: 1px solid #ccc; /* Adjust as needed */
+    box-sizing: border-box;
+}
+
+.carousel-card.active {
+    display: flex;
+}
+
+.carousel-card:not(.active) {
+    display: none;
+}

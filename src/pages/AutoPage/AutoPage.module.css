@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+.form{
+    max-width: 360px;
+    border-radius: 30px;
+    min-height: 800px ;
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+
+}
+.cup{
+display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 40px 0;
+
+}
+.cup__title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: black;
+}
+.card{
+    width: 343px;
+    height: 75px;
+    box-shadow: 5px 5px 5px 5px #6E819B;
+    border-radius: 10px;
+    margin: 0 auto 30px;
+    display: flex;
+    gap: 90px;
+
+
+}
+.card__info{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 12px;
+
+}
+.card__model,
+.card__number{
+    color: black;
+
+}
+
