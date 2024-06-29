@@ -27,6 +27,17 @@ const YandexMap = () => {
 
             mapInstanceRef.current = mapInstance;
 
+            fetch('http://192.168.0.132/api/parking/1')
+                .then(response => response.json())
+                .then(data => {
+                    data.forEach(location => {
+                        const placemark = new window.ymaps.Placemark([location.latitude, location.longitude], {
+                            balloonContent: `${location.address} - ${location.price} руб/час`,
+                        });
+                        mapInstance.geoObjects.add(placemark);
+                    });
+                });
+
             mapInstance.events.add('click', (e) => {
                 const coords = e.get('coords');
                 const placemark = new window.ymaps.Placemark(coords, {
