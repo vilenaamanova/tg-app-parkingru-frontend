@@ -21,7 +21,7 @@ const YandexMap = () => {
             if (!mapRef.current || mapInstanceRef.current) return;
 
             const mapInstance = new window.ymaps.Map(mapRef.current, {
-                center: [55.751244, 37.618423],
+                center: [59.957581, 30.307996],
                 zoom: 10,
             });
 
